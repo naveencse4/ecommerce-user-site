@@ -1,0 +1,148 @@
+#AddAdrsBlck{
+    .modal-content {
+        background-color: #fefefe;
+        border: 1px solid #888;
+        width: 55%;
+        border-radius: 0px;
+        margin: 0 auto;
+        margin-top: 6%;
+        border-radius: 5px;
+    }
+
+    .edit-prfl-btns button{
+        color: #fff;
+        border: none;
+        padding: 8px 30px;
+        font-size:12px;
+        border-radius: 5px;
+    }
+    .edit-prfl-btns .save{
+      background-color: #59B828;
+      margin-right: 15px;
+    }
+    .edit-prfl-btns .cancel{
+        background-color: #4B566B;
+    }
+
+    .add-adrs-container {
+        display: none;
+        position: fixed;
+        z-index: 1031; 
+        padding-top: 100px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.4);
+      }
+      .add-adrs-pop-up {
+        background-color: #fefefe;
+        margin: 0px auto 0px auto;
+        padding: 30px 50px;
+        width: 450px!important;
+      }
+      .add-adrs-pop-up h2{
+        font-size: 22px!important;
+        color: #222533!important;
+        text-align: center;
+        box-shadow: none;
+    }
+    .add-adrs-pop-up h2 small{
+        font-size: 13px;
+        color: #797F81;
+    }
+    .add-adrs-pop-up input{
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 12px;
+        border-radius: 5px;
+        border: 1px solid #E8EAEE;
+        font-size: 14px;
+    }
+    .adrs-types-btn{
+        padding: 5px 0 20px 0;
+        justify-content: space-between;
+        span {
+            cursor: pointer;
+        }
+    }
+    .adrs-types-btn-all{
+        font-size: 15px;
+        color: #4B566B;
+        background-color: #fff;
+        border: 1px solid #E8EAEE;
+        border-radius: 5px;
+        padding: 8px 18px;
+        margin: 0px 0px;
+
+        img{
+           padding: 0px 5px 5px 5px;
+        }
+    }
+    .adrs-types-btn .add-select-btn-cls img{
+        padding-right: 8px;
+        margin-top: -3px;
+    }
+    .add-adrs-pop-up input::placeholder{
+        color: #4B566B;
+        font-size: 14px;
+    }
+    .addSelected{
+        color: #59B828!important;
+        border: 1px solid #59B828!important;
+    }
+    .change-local-zone{
+        font-size: 11px;
+        color: red;
+        padding-top: 5px;
+        cursor: pointer;
+    }
+    .address-type-selected {
+        font-size: 15px;
+        color: #4B566B;
+        background-color: #EDF7E8;
+        border: 1px solid #59B828;
+        border-radius: 5px;
+        padding: 8px 16px;
+
+        img{
+            padding: 0px 5px 5px 5px;
+         }
+    }
+    .css-1pahdxg-control{
+        box-shadow: 0 0 0 1px #fafafa!important;
+        border-color: #E8EAEE!important;
+        color: #797F81!important;
+   }
+
+}
+
+@media screen and (max-width: 980px){
+    #AddAdrsBlck{
+        .add-adrs-pop-up{
+            width: 100%!important;
+            padding: 30px 30px;
+        }
+        .adrs-types-btn span {
+            display: flex;
+            align-items: center;
+            font-size: 13px;
+            padding: 8px 10px;
+        }
+    }
+}
+@media screen and (max-width: 390px){
+    #AddAdrsBlck{
+        .adrs-types-btn span {
+            font-size: 12px;
+            padding: 8px 5px;
+        }
+        .address-type-selected img {
+            width: 15px;
+            padding: 0px 0px 3px 0px;
+            margin-right: 5px;
+        }
+    }
+}

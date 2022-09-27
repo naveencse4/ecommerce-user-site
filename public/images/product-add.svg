@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <g id="Add" transform="translate(-297 -359)">
+    <g id="Rectangle_493" data-name="Rectangle 493" transform="translate(297 359)" fill="#f9f9f9" stroke="#e8eaee" stroke-width="1">
+      <rect width="26" height="26" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="25" height="25" rx="2.5" fill="none"/>
+    </g>
+    <path id="plus" d="M10.831,5.131H6.271V.57a.57.57,0,0,0-1.14,0v4.56H.57a.57.57,0,0,0,0,1.14H5.131v4.56a.57.57,0,1,0,1.14,0V6.271h4.56a.57.57,0,1,0,0-1.14Zm0,0" transform="translate(304.299 366.571)" fill="#797f81" stroke="#797f81" stroke-width="0.5"/>
+  </g>
+</svg>

@@ -1,0 +1,209 @@
+.flxcls {
+    display: flex;
+    align-items: flex-start;
+}
+.fix-wid {
+    width: 25%;
+}
+.cat-block {
+    width: 340px;
+}
+.cat-block .cats {
+    border: 1px solid #E8EAEE;
+    padding: 15px 10px!important;
+    border-radius: 5px;
+    margin-top: 10px;
+    float: left;
+    width: 85%;  
+}
+.cat-heading {
+    font-weight: 700;
+}
+.cat-block .cats .cat-list {
+    max-height: calc(100VH - 200px);
+    overflow-y: scroll;
+}
+.cat-block a img {
+    width: 32px;
+    height: 32px;
+    float: left;
+}
+.cat-block a h3 {
+    float: left;
+    width: calc(100% - 50px);
+    font-size: 13px;
+    padding-left: 10px;
+    line-height: 32px;
+}
+.cat-block .top-fix{
+    width: 20%;
+    position: fixed;
+    top:75px;
+}
+.cat-block .btm-fix {
+    width: 20%;
+    position: fixed;
+    bottom: 175px;
+}
+.load-btn {
+    color: #59B828;
+    border: 1px solid #59B828;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px 10px;
+    background-color: #fff;
+    margin:10px auto 10px auto;
+    width:100px!important
+}
+.cat-block .cats .cat-list::-webkit-scrollbar {
+    width: 5px;
+  }
+  .cat-block .cats .cat-list::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+
+.active-cat {
+    color: #59B828;
+}
+.products-row {
+    width: 100%;
+}
+.no-prod-error-msg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 500;
+    color: red;
+}
+@media screen and (max-width: 1100px){
+    .cat-block {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .mbl-hide{
+        display: none;
+    }
+    .flxcls {
+        display: inherit;
+        align-items: inherit;
+    }
+    .prd-row > .col-6:last-child {
+        margin-left: 5px;
+       }
+     .prd-row > .col-6:nth-child(odd) {
+         padding-left: 5px!important;
+         padding-right: 0px!important;
+       }
+       .prd-row > .col-6:nth-child(even) {
+         padding-right: 5px!important;
+         padding-left: 0px!important;
+       }
+       .prd-row .col-6{
+           width: 48%!important;
+           max-width: 48%!important;
+           flex: 48%!important;
+           margin: auto;
+       }
+    .cat-list {
+        padding-bottom: 4px;
+    }
+    .fix-wid {
+        width: 100%;
+        z-index: 2;
+        position: fixed !important;
+        top: 50px !important;
+        background: #FFF;
+        box-shadow: 0 4px 8px -6px;
+    }
+    .cat-block{
+        width: auto;
+        border: none;
+        margin-left: -5px;
+        margin-right: 10px;
+        background-color: white;
+        overflow-x: auto;
+        margin-top: 0px;
+        padding-bottom: 5px;
+    }
+    .cat-block .cats {
+        width: calc(100% + 15px);
+        overflow-y:initial;
+        padding: 0px !important;
+        border-radius: 0px;
+        border:0px solid;
+        overflow-x: initial;
+    }
+    .cat-block .cats::-webkit-scrollbar{
+        width: 0;
+        height: 0;
+    }
+    .cat-block .cats .cat-list {
+        max-height: inherit;
+        overflow-y: hidden;
+        display: flex;
+    }
+    .cat-block .cats .cat-list::-webkit-scrollbar{
+        width: 0;
+        height: 0;
+    }
+    .cat-block a {
+        height: 88px;
+    }
+    .cat-block a img {
+        float: none;
+        width: 85px;
+        height: 85px;
+    }
+    .cat-block a h3 {
+        float: none;
+        width: 80px;
+        font-size: 13px;
+        line-height: initial;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    .no-prod-error-msg{
+        left: 34%;
+    }
+    .cat-block a{
+        display: inline-block;
+        border: 1px solid #E8EAEE;
+        text-align: center;
+        margin-right: 10px;
+        /* width: 72px; */
+        /* padding-top: 10px; */
+        border-radius: 5px;
+    }
+    .cat-block a:last-child{
+        margin-right: 0;
+    }
+    
+    .cat-block a p{
+        margin: auto;
+        font-size: 10px;
+        width: inherit;
+        padding: 2px 6px 10px 6px;
+        justify-content: center;
+    }
+    .cat-block a img {
+        background-color:transparent;
+    }
+    .products-row{
+        margin-top: 165px!important;
+        margin-bottom: 60px;
+    }
+    .load-btn{
+        display: none;
+    }
+    .mbl-active-cat{
+        border: 1px solid #59B828!important;
+        box-shadow: 0 4px 8px -6px;
+        padding-top: 0px !important;
+    }
+    .mbl-active-cat img{
+        border-radius: 5px;
+    }
+}
+

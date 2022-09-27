@@ -1,0 +1,303 @@
+#order_details_page{
+    min-height: 80vh;
+    font-family: 'Montserrat' !important;
+
+    /* side nav css code*/
+    @import '../../common/profileNav.scss';
+
+    /* Side Options fixed */
+
+    .profile-container{
+        margin-top: 20px;
+    }
+    .flex{
+        display: flex;
+    }
+    .full-border{
+        border: 1px solid #E8EAEE;
+    }
+    .f-ac{
+        align-items: center;
+    }
+    .fw-500{
+        font-weight: 500;
+    }
+    /* End of Products Slider */
+    .profile-container{
+        margin-top: 20px;
+    }
+    .order-placed-banner{
+        background-color: #EDF7E8;
+        border:1px solid #59B828;
+        border-radius: 5px;
+        padding: 20px 20px;
+        margin-bottom: 10px;
+    }
+    .order-date-n-repeat{
+        box-shadow: 0 -1px 8px 0 #eff1ef;
+        padding: 10px 20px;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .order-date{
+        font-size: 12px;
+        color: #222533;
+    }
+    .order-date small{
+        font-size: 11px;
+        color: #797F81;
+    }
+
+    .repeat{
+        color: #59B828;
+        border: 1px solid #59B828;
+        background-color: #fff;
+        border-radius: 24px;
+        padding: 5px 15px;
+        font-size: 11px;
+        font-weight: 600;
+    }
+    .repeat img{
+        padding-right: 10px;
+    }
+    .payment-otp{
+        padding: 10px 15px;
+        line-height: 17px;
+        .otp{
+            float: right;
+            font-size: 14px;
+            color: #F68501;
+        }
+    }
+    .payment-n-amount{
+        font-size: 12px;
+        color: #59B828;
+    }
+    .payment-n-amount b{
+        font-size: 12px;
+        margin-right: 14px;
+    }
+    .payment-n-amount small{
+        color: #797F81;
+        font-size: 10px;
+    }
+    hr{
+        border-bottom: .5px solid!important;
+        opacity: .05!important;
+        height: 0.7px!important;
+    }
+    .address{
+        padding: 0px 20px 10px 20px;
+        align-items: flex-start
+    }
+    .payment-failed .address{
+        padding: 10px 20px;
+    }
+    .address img{
+        padding-right: 10px;
+    }
+    .address span{
+        color: #4B566B;
+        font-size: 14px;
+    }
+    .address small{
+        font-size: 12px;
+        color: #797F81;
+    }
+    .order-details{
+        margin: 0px 0 20px 0;
+        border-radius: 5px;
+    }
+    .groceries{
+        padding:4px 20px;
+    }
+    .groceries h5{
+        font-size: 14px;
+        color: #222533;
+        margin-top: 8px;
+    }
+    .b-bottom{
+        border-bottom: 1px solid #E8EAEE;
+    }
+    .productsTable img{
+        width: 40px;
+        margin-right: 6px;
+    }
+    .productsTable{
+        font-size: 12px;
+    }
+    .productsTable .col-6{
+        color: #222533;
+    }
+    .disable-color{
+        color: #797F81;
+    }
+    .productsTable .col-lg-3{
+        color: #4B566B;
+    }
+    .productsTotal{
+        color: #4B566B;
+        margin-bottom: 10px;
+    }
+    .t-amount{
+        font-size: 14px;
+    }
+    .t-rupees{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .grocery-delivery{
+        margin: 10px 0px;
+        padding-right: 10px;
+        width: 100%;
+    }
+    .grocery-delivery img{
+        width: 26px;
+        margin: 8px 8px 0 0;
+        float: left;
+    }
+    .grocery-delivery span{
+        font-size: 12px;
+        color: #222533;
+    }
+    .grocery-delivery small{
+        color: #ABABAB;
+        font-size: 12px;
+    }
+    .delivery-instructions-display{
+        span{
+            color: #F68501;
+        }
+    }
+    .order-status-img img{
+    width: 100%;
+    }
+    .overall-total{
+        border-top: 2px dashed #E8EAEE;
+    }
+    .overall-total{
+        width: calc(100% - 8%);
+        margin: auto;
+    }
+    .overall-amount{
+        font-size: 16px;
+        color: #4B566B;
+    }
+    .overall-price{
+        font-size:20px;
+        color: #59B828;
+    }
+    .overall-price b{
+        font-size: 20px;
+        color: #59B828;
+    }
+    .hel-n-repeat{
+        padding: 20px 20px;
+    }
+    .help-call{
+        font-size: 12px;
+        color: #797F81;
+    }
+    .help-call span{
+        color: #59B828;
+    }
+    .mbl-price{
+        display: none;
+    }
+    .download-invoice img{
+        width: 15px;
+        margin-right: 5px;
+    }
+    .download-invoice a{
+        // color: #F68501;
+        color: #F68C14;
+        //font-weight: 500;
+    }
+    .order-placed-banner img{
+        float: left;
+        margin-right: 12px;
+    }
+    .o-banner-txt{
+        color: #32BA7C;
+        font-weight: 500;
+    }
+    .order-placed-banner span{
+        font-size: 12px;
+        color: #797F81;
+    }
+ 
+}
+@media only screen and (max-width: 975px) {
+    #order_details_page{
+        .order-date-n-repeat{
+            padding: 10px 20px 10px 15px;
+        }
+        .col-lg-7{
+            height: 68vh;
+            overflow-y: scroll;
+        }
+            .col-8 {
+                flex: 0 0 64.66667%!important;
+                max-width: 64.66667%!important;
+            }
+            .address{
+                padding: 10px 10px 10px 20px;
+            }
+            .payment-otp{
+                height: 60px;
+            }
+            .download-invoice a{
+                font-size: 12px;
+            }
+            .download-invoice img{
+                width: 13px;
+                margin-right: 5px;
+            }
+            .order-placed-banner{
+                padding: 10px 16px;
+            }
+            .order-placed-banner span{
+                font-size: 11px;
+            }
+            .order-placed-banner img{
+               width: 30px;
+               height: 40px;
+            }
+       
+    }
+}
+@media screen and (max-width: 390px){
+    .payment-otp{
+        height: 50px;
+    }
+    #order_details_page {
+    .address span {
+        font-size: 12px;
+    }
+    .address small {
+        font-size: 10px;
+    }
+    .download-invoice a {
+        font-size: 10px;
+    }
+    .order-placed-banner{
+        padding: 10px 10px;
+    }
+}
+    .order-details{
+        height: 56vh;
+        overflow-y: scroll;
+    }
+        .col-8{
+            flex: 0 0 64.66667%!important;
+            max-width: 66.66667%!important;
+        }
+         .product-title{
+            font-size: 12px;
+        }
+       
+       
+}
+
+
+

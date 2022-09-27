@@ -1,0 +1,8 @@
+<svg id="All_Catagories" data-name="All Catagories" xmlns="http://www.w3.org/2000/svg" width="25.487" height="24.691" viewBox="0 0 25.487 24.691">
+  <rect id="Rectangle_4" data-name="Rectangle 4" width="25.487" height="24.691" rx="3" fill="#59b828"/>
+  <g id="menu" transform="translate(6.65 7.944)">
+    <path id="Path_22650" data-name="Path 22650" d="M11.68,123.722H.508a.527.527,0,0,1,0-1.054H11.68a.527.527,0,0,1,0,1.054Zm0,0" transform="translate(0 -118.794)" fill="#fff"/>
+    <path id="Path_22651" data-name="Path 22651" d="M11.68,1.054H.508A.518.518,0,0,1,0,.527.518.518,0,0,1,.508,0H11.68a.518.518,0,0,1,.508.527A.518.518,0,0,1,11.68,1.054Zm0,0" fill="#fff"/>
+    <path id="Path_22652" data-name="Path 22652" d="M11.68,246.386H.508a.527.527,0,0,1,0-1.054H11.68a.527.527,0,0,1,0,1.054Zm0,0" transform="translate(0 -237.584)" fill="#fff"/>
+  </g>
+</svg>

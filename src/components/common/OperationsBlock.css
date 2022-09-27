@@ -1,0 +1,43 @@
+.qty-number{
+    text-align: center;
+}
+.out-of-stock-btn{
+    color: #F68501;
+    border: 1px solid #F68501;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+.disable-pointer{
+    pointer-events: none;
+    cursor: default;
+    background-color: hsl(0, 0%, 90%)!important;
+    border-top-right-radius: 2px!important;
+    border-bottom-right-radius: 2px!important;
+    border-top-left-radius: 0px!important;
+    border-bottom-left-radius: 0px!important;
+}
+.max-qty-error{
+    color: red;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.qty-added{
+    margin-top: -4px!important;
+}
+.del-icon {
+    width: 20px!important;
+}
+.qty-n-add img{
+    background-color: #F9F9F9;
+    border-radius: 5px;
+}
+.add-btn img{
+    background-color: transparent!important;
+}
+@media screen and (max-width: 980px){
+    .qty-added{
+        margin-top: 0px!important;
+    }
+}
+

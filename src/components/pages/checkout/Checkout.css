@@ -1,0 +1,127 @@
+.delivery-instructions-modal .modal-content{
+    padding: 24px;
+}
+.order-failed-modal{
+    top: 50%;
+    padding: 0px!important;
+}
+.order-failed-modal .modal-content{
+    border: 1px solid #EF3636;
+}
+.order-failed {
+    background-color: #FEF2E4;
+    padding: 24px;
+    border-radius: 5px;
+}
+.order-failed-text {
+    padding-bottom: 10px;
+    text-align: center;
+}
+.order-failed-btns{
+    display: flex;
+    justify-content: center;
+}
+.retry-payment-btn{
+    color: #EF3636;
+    background-color: transparent;
+    border: 1px solid #EF3636;
+    border-radius: 5px;
+    margin-right: 26px;
+    padding: 6px 15px;
+}
+.retry-payment-cancel{
+    border: 1px solid #4B566B;
+    background-color: transparent;
+    padding: 6px 15px;
+    border-radius: 5px;
+}
+.addrs-save-btn{
+    background-color: #59B828;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 6px 15px;
+    font-size: 14px;
+    margin-right: 15px;
+}
+.addrs-cancel-btn{
+    background-color: #E8EAEE;
+    border: none;
+    padding: 6px 15px;
+    border-radius: 5px;
+}
+.accordion-cart-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delivery-instructions{
+    color: #F68501;
+    display: flex;
+    align-items: center;
+}
+.plus-icon{
+    color: #F68501;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.prod-name-view{
+    padding : 10px 0px;
+    color: #222533;
+    font-weight: 500;
+}
+.add-new-adrs-btn{
+    display: flex;
+    margin: auto;
+    background-color: #59B828;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 14px;
+}
+.stock-err-msg{
+    font-size: 12px;
+    color: red;
+    font-weight: 500;
+    position: absolute;
+    left: 29%;
+}
+.prod-out-of-stock{
+  /* background-color: #FEF2E4; */
+}
+.address-btn-error{
+    color: #fff;
+        background-color: #797F81;
+        border-radius: 5px;
+        border: none;
+        padding: 15px;
+        pointer-events: none;
+        opacity: 0.4; 
+}
+.no-slots{
+    color: #F68501;
+    padding-top: 10px;
+}
+.close{
+    line-height: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.modal-open{
+    overflow: auto;
+}
+@media only screen and (max-width: 900px) {
+    .delivery-instructions{
+        font-size: 12px;
+        padding-right: 6px;
+    }
+    .img-n-title{
+        display: flex;
+        align-items: center;
+    }
+    .prod-name-view{
+        padding : 0px 0px;
+        margin-left: 6px;
+    }
+}

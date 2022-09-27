@@ -1,0 +1,246 @@
+/* top header css */
+* {
+    color: #4B566B;
+    font-size: 14px;
+}
+*:focus {
+    outline: none;
+}
+ul, li {
+    margin: 0px;
+}
+.header-sec {
+    background-color: #FFF;
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 10%);
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+}
+.crsr-pntr {
+    cursor: pointer;
+}
+.logo{
+    margin: 10px 0px;
+    height: 50px;
+}
+.icon {
+    margin:5px;
+    height: 20px;
+}
+.middle-block{
+    margin: 15px 0px;
+}
+.middle-block .location {
+    padding-top: 10px
+}
+.location-name{
+    font-weight: 500;
+    padding-left: 5px;
+}
+.search-sec {
+    border: 1px solid #E8EAEE;
+    background-color: #F8F8F8;
+}
+.search-bar{
+    background: none;
+    border: 0px solid;
+    width: calc(100% -32px);
+    width: -moz-calc(100% - 32px);
+    width: -webkit-calc(100% - 32px);
+    line-height: 35px;
+}
+
+.search-icon{
+    width: 32px;
+    padding: 10px 0px 10px 15px;
+    border-left: 1px solid #E8EAEE;
+    cursor: pointer;
+    float: right;
+}
+.options{
+    margin: 17px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.sign-in-btn{
+    margin-left: 20px;
+    padding: 8px 16px;
+    background-color: #E8EAEE;
+    border: none;
+}
+.sign-in-btn span img{
+    padding-right: 7px;
+    height: 15px;
+}
+.mobile-header-icons{
+    display: none;
+}
+/* End of top header css */
+
+/* Options Header Css */
+.header-fixed-sec {
+    margin-top: 70px;
+}
+.menu-sec{
+    /* background-image: linear-gradient(to bottom, #6ec442, #64bd37, #5ab72c, #4fb020, #44aa0f); */
+}
+.cat-menu, .main-menu{
+    margin-top: 15px;
+}
+.main-menu ul{
+    margin-left: -40px;
+}
+.main-menu ul li a {
+    color: #4B566B;
+}
+.cat-menu-icon{
+    margin-right: 8px;
+}
+.cat-menu-icon img{
+    margin-top: -3px;
+}
+.main-menu ul li{
+    float: left;
+    margin-right: 40px;
+    list-style: none;
+}
+.icons-block{
+    margin: 5px 0px;
+}
+.icons-block span{
+    float: right;
+    margin-right: 15px;
+    padding: 5px 10px;
+    background-color: #E8EAEE;
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+    position: relative;
+}
+.icons-block .icon img{
+    height: 15px;
+    margin: auto;
+}
+.icons-block i {
+    background-color: #F68501;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    font-size: 10px;
+    position: absolute;
+    top: -6px;
+    right: -5px;
+    color: #fff;
+    text-align: center;
+    padding-top: 2px;
+    font-style: normal;
+}
+.icons-block .cart {
+    padding: 4px 7px;
+}
+.icons-block .cart i {
+    background-color: #59B828;
+}
+/* End of Options Header Css */
+
+
+@media screen and (min-width: 1600px){
+    * {
+        font-size: 18px;
+    }
+    .icons-block span {
+        width: 35px;
+        height: 35px;
+    }
+    .icons-block .icon img {
+        height: 18px;
+    }
+    .icons-block i {
+        font-size: 12px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .col-12 {
+        width: 100% !important;
+        flex: 100% !important;
+        max-width: 100% !important;
+    }
+    .col-6 {
+        width: 50% !important;
+        flex: 50% !important;
+        max-width: 50% !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .col-4 {
+        width: 33.33% !important;
+        flex: 33.33% !important;
+        max-width: 33.33% !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .container-fluid {
+        padding-left:0px !important;
+        padding-right: 0px !important;
+    }
+    .hide-mbl{
+        display: none !important;
+    }
+    .header-sec {
+        height: 50px; 
+    }
+    .header-fixed-sec {
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+    .logo{
+        margin: 10px 0px;
+        height: 30px;
+    }
+    .icon {
+        margin:5px;
+        height: 20px;
+    }
+    .mobile-header-icons {
+        display: block;
+        float: right;
+        margin: 10px 0px;
+    }
+    .mobile-header-icons img{
+        float: right;
+        height: 30px;
+        width: 30px;
+        margin-left: 10px;
+    }
+    .middle-block{
+        margin: 0px 0px;
+        text-align: end;
+    }
+    .search-bar{
+        line-height: 10px;
+    }
+    .search-icon{
+        float: inherit;
+    }
+    
+}
+
+@media screen and (max-width:390px){
+    .location-name{
+        font-size: 12px;
+        padding-left: 3px;
+    }
+    .icon {
+        height: 16px;
+    }
+    .down-arrow-location img{
+        width: 10px;
+    }
+}

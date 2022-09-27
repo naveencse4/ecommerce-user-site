@@ -1,0 +1,53 @@
+/* Side nav profile scss code */
+.account-options ul {
+    border-radius: 5px;
+    padding: 10px 0px;
+    background-color: #fff;
+    list-style-type: none;
+    a{
+        text-decoration: none;
+    }
+}
+.account-options li span img{
+    width: 21px;
+    height: 21px;
+    margin-right: 10px;
+}
+.account-options li{
+    font-size: 15px;
+    color: #797F81;
+    padding: 10px 10px;
+
+    a{
+        text-decoration: none;
+        color: #797F81;
+    }
+}
+
+// .side-options li:hover{
+//     background-color: #59B828;
+//     color: #fff;
+//     a{
+//         text-decoration: none;
+//         color: #fff;
+//     }
+// }
+// .side-options li:hover img{
+//     filter: brightness(0) invert(1);   
+// }
+
+.side-options .item-active{
+    background-color: #59B828;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.side-options .logout-clicked {
+    background-color: white;
+    color: black;
+}
+ .side-options .item-active span img {
+    filter: brightness(0) invert(1);
+ }
+
+/* End of Side Options fixed */

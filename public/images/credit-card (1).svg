@@ -1,0 +1,30 @@
+<svg id="credit-card_1_" data-name="credit-card (1)" xmlns="http://www.w3.org/2000/svg" width="39.854" height="33.73" viewBox="0 0 39.854 33.73">
+  <path id="Path_22648" data-name="Path 22648" d="M94.676,41.827v18.98A2.482,2.482,0,0,1,92.185,63.3H61.947a2.482,2.482,0,0,1-2.491-2.491V41.827a2.49,2.49,0,0,1,2.491-2.491H92.185A2.49,2.49,0,0,1,94.676,41.827Z" transform="translate(-54.828 -39.336)" fill="#6f7070"/>
+  <rect id="Rectangle_477" data-name="Rectangle 477" width="35.232" height="4.045" transform="translate(4.622 4.531)" fill="#464646"/>
+  <g id="Group_17332" data-name="Group 17332" transform="translate(21.382 1.02)">
+    <path id="Path_22649" data-name="Path 22649" d="M283.987,52.44h-8.038a1.245,1.245,0,0,0,0,2.491h8.038a1.245,1.245,0,1,0,0-2.491Z" transform="translate(-274.704 -52.44)" fill="#787878"/>
+    <path id="Path_22650" data-name="Path 22650" d="M428.016,52.44h-2.178a1.245,1.245,0,1,0,0,2.491h2.178a1.245,1.245,0,1,0,0-2.491Z" transform="translate(-412.925 -52.44)" fill="#787878"/>
+  </g>
+  <g id="Group_17333" data-name="Group 17333" transform="translate(6.677 5.308)">
+    <path id="Path_22651" data-name="Path 22651" d="M93.094,107.528H87.021a1.245,1.245,0,1,0,0,2.491h6.073a1.245,1.245,0,0,0,0-2.491Z" transform="translate(-85.776 -107.528)" fill="#3e3e3e"/>
+    <path id="Path_22652" data-name="Path 22652" d="M213.87,107.528h-2.177a1.245,1.245,0,0,0,0,2.491h2.177a1.245,1.245,0,0,0,0-2.491Z" transform="translate(-200.744 -107.528)" fill="#3e3e3e"/>
+  </g>
+  <g id="Group_17334" data-name="Group 17334" transform="translate(34.343 12.006)" opacity="0.07">
+    <path id="Path_22653" data-name="Path 22653" d="M446.721,198.221v4.82a2.482,2.482,0,0,1-2.491,2.491h-3.014l.859-11.956Z" transform="translate(-441.216 -193.576)" fill="#010101"/>
+  </g>
+  <path id="Path_22654" data-name="Path 22654" d="M32.739,188.757H2.491A2.49,2.49,0,0,1,0,186.266V167.283a2.491,2.491,0,0,1,2.491-2.491H32.739a2.491,2.491,0,0,1,2.491,2.491v18.982A2.491,2.491,0,0,1,32.739,188.757Z" transform="translate(0 -155.027)" fill="#4b9fd8"/>
+  <g id="Group_17335" data-name="Group 17335" transform="translate(0 9.765)">
+    <path id="Path_22655" data-name="Path 22655" d="M16.091,164.792A46.056,46.056,0,0,0,.025,186.512,2.426,2.426,0,0,1,0,186.2v-18.98a2.486,2.486,0,0,1,1.93-2.429Z" transform="translate(0 -164.792)" fill="#3a9bd6"/>
+    <path id="Path_22656" data-name="Path 22656" d="M245.9,215.36a46.056,46.056,0,0,0,16.066-21.72,2.432,2.432,0,0,1,.025.311v18.98a2.486,2.486,0,0,1-1.93,2.429Z" transform="translate(-226.763 -191.395)" fill="#3a9bd6"/>
+  </g>
+  <circle id="Ellipse_11" data-name="Ellipse 11" cx="3.034" cy="3.034" r="3.034" transform="translate(21.071 13.501)" fill="#fee218"/>
+  <circle id="Ellipse_12" data-name="Ellipse 12" cx="3.034" cy="3.034" r="3.034" transform="translate(25.427 13.501)" fill="#cd494c"/>
+  <g id="Group_17336" data-name="Group 17336" transform="translate(3.287 15.29)">
+    <path id="Path_22657" data-name="Path 22657" d="M49.361,320.371H43.469a1.245,1.245,0,0,1,0-2.491h5.892a1.245,1.245,0,0,1,0,2.491Z" transform="translate(-42.224 -311.489)" fill="#fff"/>
+    <path id="Path_22658" data-name="Path 22658" d="M54.624,238.259H43.469a1.245,1.245,0,1,1,0-2.491H54.624a1.245,1.245,0,1,1,0,2.491Z" transform="translate(-42.224 -235.768)" fill="#fff"/>
+  </g>
+  <path id="Path_22659" data-name="Path 22659" d="M47.1,402.483H43.453a1.245,1.245,0,1,1,0-2.491H47.1a1.245,1.245,0,1,1,0,2.491Z" transform="translate(-38.923 -371.919)" fill="#8bd5ec"/>
+  <path id="Path_22660" data-name="Path 22660" d="M143.55,402.483H139.9a1.245,1.245,0,1,1,0-2.491h3.649a1.245,1.245,0,1,1,0,2.491Z" transform="translate(-127.863 -371.919)" fill="#daeff6"/>
+  <path id="Path_22661" data-name="Path 22661" d="M239.982,402.483h-3.649a1.245,1.245,0,1,1,0-2.491h3.649a1.245,1.245,0,1,1,0,2.491Z" transform="translate(-216.789 -371.919)" fill="#8bd5ec"/>
+  <path id="Path_22662" data-name="Path 22662" d="M336.414,402.483h-3.649a1.245,1.245,0,1,1,0-2.491h3.649a1.245,1.245,0,1,1,0,2.491Z" transform="translate(-305.715 -371.919)" fill="#daeff6"/>
+</svg>

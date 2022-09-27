@@ -1,0 +1,213 @@
+.fixed-cart-count {
+    position: fixed;
+    background-color: #59B828;
+    right: 0px;
+    top: 50%;
+    padding: 10px 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: 9;
+
+    .f-cart-heading{
+        color: #fff;
+    }
+    .f-cart-heading span{
+        margin-right: 6px;
+    }
+    button{
+        color: #4B566B;
+        background-color: #fff;
+        font-size: 14px;
+        border-radius: 5px;
+        border: none;
+        width: 110px;
+        padding: 10px;
+        margin: 6px 0;
+        font-weight: 600;
+    }
+}
+.fixed-whats-app-icon{
+    position: fixed;
+    right: 0px;
+    bottom: 10%;
+    padding: 10px 0px;
+    z-index: 9;
+    
+}
+.fixed-whats-app-icon img{
+    width: 100%;
+    border-radius: 7px;
+}
+.catsidenav {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1200;
+    top: 0px;
+    right: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    
+    .cart-top {
+        position: absolute;
+        top: 0;
+        background-color: #4B566B;
+        height: 70px;
+        width: 100%;
+        line-height: 70px;
+        padding: 0 10px;
+    }
+    .c-items {
+        color: #FFF;
+    }
+    .c-items img{
+        margin-right: 7px;
+    }
+    .c-items span{
+        float: right;
+        cursor: pointer;
+    }
+    .c-items span img{
+        width: 13px;
+    }
+    section{
+        height: 76vh;
+        overflow-y: auto;
+    }
+    section::-webkit-scrollbar {
+        width: 5px;
+      }
+    section::-webkit-scrollbar-thumb {
+        background: #888; 
+      }
+    .cart-product-card{
+        margin-top: 16px;
+        padding: 10px 20px;
+        border-bottom: .5px solid #E8EAEE;
+        position: inherit !important;
+    }
+    .cart-product-card h5{
+        color: #222533;
+    }
+    .card-error{
+        margin-top: 16px;
+        padding: 10px 20px 36px 20px;
+        border-bottom: .5px solid #E8EAEE;
+        position: inherit !important;
+    }
+    .cart-prod-img{
+        width: 60px;
+        float: left;
+        margin-right: 10px;
+        // height: 69px;
+        padding-bottom: 77px;
+    }
+    .stock-err-msg{
+        font-size: 12px;
+        color: #F68501;
+        margin-top: -6px;
+        position: unset;
+        font-weight: 600;
+        line-height: 14px;
+    }
+    h5{
+        font-size: 14px!important;
+        // height: 36px;
+        line-height: 20px;
+    }
+    .rupee-text{
+        font-weight: 500!important;
+        margin-right: 2px;
+    }
+    rupee{
+        font-size: 14px;
+        color: #222533;
+    }
+    .no-prods-error-msg{
+        color: red;
+        position: absolute;
+        top: 50%;
+        left: 32%;
+        font-weight: 500;
+    }
+    .qty-n-add{
+        padding: 15px 0px 10px 0px;
+        display: flow-root;
+    }
+       
+    .cart-qty{
+        justify-content: space-between;
+    }
+    .cart-qty img{
+        width: 16px;
+    }
+    .cart-bottom-fixed{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: #F9F9F9;
+        padding: 12px 15px 0px 15px;
+    }
+    .cart-total-price{
+        float: right;
+        font-size: 18px;
+        color: #4B566B;
+        font-weight: 600;
+    }
+    .cart-total-price span{
+        font-weight: 100;
+        font-weight: 100;
+    }
+    
+    .cart-bottom-fixed{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: #F9F9F9;
+        padding: 12px 15px 0px 15px;
+    }
+    .cart-total-price{
+        float: right;
+        font-size: 18px;
+        color: #4B566B;
+        font-weight: 600;
+    }
+    .cart-total-price span{
+        font-weight: 100;
+        font-weight: 100;
+    }
+    .checkout-btn-disable{
+        color: #fff;
+        background-color: #797F81;
+        border-radius: 5px;
+        border: none;
+        font-size: 14px;
+        width: 100%;
+        margin: 10px 0px;
+        padding: 15px;
+        pointer-events: none;
+        opacity: 0.4;
+    }
+    .p-checkout{
+        color: #fff;
+        background-color: #59B828;
+        border-radius: 5px;
+        border: none;
+        font-size: 14px;
+        width: 100%;
+        margin: 10px 0px;
+        padding: 15px;
+    }
+    
+}
+
+@media screen and (max-width:960px) {
+    .fixed-whats-app-icon{
+        bottom: 15%;
+    }
+    .fixed-whats-app-icon img{
+        width: 40px;
+    }
+}

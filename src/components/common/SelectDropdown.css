@@ -1,0 +1,49 @@
+#myModall {
+    position: absolute;
+    top: 36%;
+    width: 96%;
+}
+
+.varient-name{
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E8EAEE;
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+}
+.varient-heading{
+    color:#ABABAB ;
+}
+.varient-title{
+    color:#4B566B;
+    font-size: 16px;
+    padding-top: 6px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid#E8EAEE;
+    font-weight: 500;
+}
+.varient-name{
+    font-weight: 500;
+}
+.varient-popup{
+    padding: 20px;
+}
+.mbl-drp{
+    height: 30px;
+    background-color: transparent;
+    position: absolute;
+    width: 94%;
+    z-index: 10;
+}
+
+.close {
+    /* color: #797F81; */
+    color: black;
+    text-align: right!important;
+    font-size: 28px!important;
+    cursor: pointer;
+    font-weight: 500;
+  }
